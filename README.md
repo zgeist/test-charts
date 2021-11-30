@@ -27,3 +27,24 @@ Start production app
 PORT=8080 npm run build
 ```
 
+## Run E2E testing
+
+For first run in dev mode
+```bash
+npm run dev
+```
+
+You can run test into Cypress UI
+```bash
+npm run cypress:open
+```
+or run without UI
+```bash
+npm run cypress:run
+```
+
+## Run Unit testing
+```bash
+npm run test
+```
+
